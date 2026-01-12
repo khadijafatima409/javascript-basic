@@ -86,3 +86,25 @@ while (number > 0) {
 }
 
 console.log(sum);
+
+// 7. Print Triangle of Stars (Nested Loops)
+// Write a program that prints:
+
+// *
+// **
+// ***
+// ****
+// *****
+// based on user input height n.
+
+let n = 5;
+
+for (let i = 1; i <= n; i++) {
+  let stars = "";
+
+  for (let j = 1; j <= i; j++) {
+    stars = stars + "*";
+  }
+
+  console.log(stars);
+}
