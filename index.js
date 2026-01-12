@@ -121,3 +121,15 @@ function reverseString(text) {
 }
 
 console.log(reverseString("hello"));
+
+// 9. Arrays — Remove an Element at Index
+// Given an array:
+
+// [10, 20, 30, 40, 50]
+// Remove the element at index 2 using splice() and log the updated array.
+
+let numbers = [10, 20, 30, 40, 50];
+
+numbers.splice(2, 1);
+
+console.log(numbers);
