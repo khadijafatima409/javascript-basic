@@ -37,3 +37,19 @@ let num = 5;
 for (let i = 1; i <= 10; i++) {
   console.log(num + " x " + i + " = " + num * i);
 }
+
+// 4. Factorial Function (Loops + Functions)
+// Write a function named factorial(n) that returns the factorial of a number using a while loop.
+
+function factorial(n) {
+  let result = 1;
+
+  while (n > 1) {
+    result = result * n;
+    n--;
+  }
+
+  return result;
+}
+
+console.log(factorial(5));
