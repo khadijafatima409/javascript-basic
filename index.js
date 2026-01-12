@@ -72,3 +72,17 @@ function isPrime(num) {
 }
 
 console.log(isPrime(7));
+
+// 6. Sum of Digits (Loops + Operators)
+// Write a program that takes a positive number and calculates the sum of its digits using
+//  a while loop and % operator.
+
+let number = 1234;
+let sum = 0;
+
+while (number > 0) {
+  sum = sum + (number % 10);
+  number = Math.floor(number / 10);
+}
+
+console.log(sum);
