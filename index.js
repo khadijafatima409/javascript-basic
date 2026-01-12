@@ -53,3 +53,22 @@ function factorial(n) {
 }
 
 console.log(factorial(5));
+
+// 5. Check Prime Number Function (Logic + Functions)
+// Write a function isPrime(num) that returns true if the number is prime, otherwise false.
+
+function isPrime(num) {
+  if (num <= 1) {
+    return false;
+  }
+
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+console.log(isPrime(7));
