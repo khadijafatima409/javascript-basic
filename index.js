@@ -133,3 +133,17 @@ let numbers = [10, 20, 30, 40, 50];
 numbers.splice(2, 1);
 
 console.log(numbers);
+
+// 10. Objects — Add Method to an Object
+// Create an object calculator with properties a and b.
+// Add a method add() that returns the sum of a + b, then call it and log the result.
+
+let calculator = {
+  a: 10,
+  b: 20,
+  add: function () {
+    return this.a + this.b;
+  },
+};
+
+console.log(calculator.add());
