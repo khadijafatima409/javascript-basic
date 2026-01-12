@@ -108,3 +108,16 @@ for (let i = 1; i <= n; i++) {
 
   console.log(stars);
 }
+
+// 8. Reverse a String (Functions + Strings)
+// Write a function named reverseString(str) that returns the reversed string.
+
+function reverseString(text) {
+  let reversed = "";
+  for (let i = text.length - 1; i >= 0; i--) {
+    reversed = reversed + text[i];
+  }
+  return reversed;
+}
+
+console.log(reverseString("hello"));
