@@ -28,3 +28,12 @@ if (marks >= 90) {
 } else {
   console.log("F");
 }
+
+// 3. Multiplication Table (Loops)
+// Ask the user for a number and print its multiplication table (1–10) using a for loop.
+
+let num = 5;
+
+for (let i = 1; i <= 10; i++) {
+  console.log(num + " x " + i + " = " + num * i);
+}
